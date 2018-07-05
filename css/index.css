@@ -1,0 +1,147 @@
+.mtb-2{margin: 2em 0;}
+.mt-6{margin-top: 6em;}
+.ptb-3{padding: 3em 0;}
+.ptb-4{padding: 4em 0;}
+
+
+/*banner*/
+.banner-img{padding: 0;}
+/*热门课程*/
+.title-1,.title-2>b,.title-3>b,.title-4>b,.title-5>b,.title-6>b,.reservation>b{font-size: 1.84em;}
+.title-1,.title-2,.title-3,.title-4,.title-5,.title-6{text-align: center;position: relative;top: -56px;}
+.big-text{font-size: 5em;text-align: center;color: #f2f2f2;font-weight: bold;}
+.list-courses>li{box-shadow: 0 0 15px rgba(17, 52, 120, 0.2);width: 22%;float: left;margin: 1em 1em 0 1em;border-radius: 6px;background-color: #fff;}
+.list-courses>li>a>img{width: 100%;padding-bottom: 1em;border-radius: 6px;}
+.list-courses>li>b{font-size: 0.875em;padding: 1em 1em;float: left;width: 100%;}
+.list-courses>li>p{padding: 0 1em;}
+.list-courses>li>p>span{font-size: 0.75em;color: #666;}
+.list-courses>li>p>a:nth-child(2){float: right;text-decoration: none;}
+.list-courses>li>p>a>span{color: #fe4a4a;font-weight: bold;}
+.see-more{text-align: center;margin: 2em 0;}
+.see-more>a,.evaluation>a {border-radius: 2em;padding: 0.6em 5em;color: #fff;text-decoration: none;
+    background: -webkit-linear-gradient(left top, #3961ac, #3961ac, #27c3cd);
+    background: -o-linear-gradient(bottom right, #3961ac, #3961ac, #27c3cd);
+    background: -moz-linear-gradient(bottom right, #3961ac, #3961ac, #27c3cd);
+    background: linear-gradient(to bottom right, #3961ac, #3961ac, #27c3cd);}
+/*高效提分*/
+.extract-list{margin-top: 3em;}
+.extract-list>li{width: 20%;float: left;}
+.extract-list>li>img{margin-bottom: 1em;}
+.extract-list>li>b{display: block;font-size: 0.75em;}
+.extract-list>li>p{width: 80%;font-size: 0.875em;color: #666;margin: 1em 0;}
+/*互动学习*/
+.study{padding: 0;}
+.interact-study>img{margin-top: 3em;}
+/*视频*/
+.study-v{margin-top: -12%;text-align: center;position: relative;}
+.video-v{width: 48%;}
+.shadow-v{width: 30%;margin: -3% 0 6% 35%;box-shadow: 0 0 6em 4em rgba(36, 81, 163, 0.6);}
+.ctrl{position: relative;text-align: center;}
+.ctrl>img{width: 100px;margin-top: -40%;}
+/*成长之路*/
+.learning-plan{padding: 2em 0;}
+.learning-plan>img{border-radius: 6px;}
+.evaluation{text-align: center;margin: 3em 0;}
+.evaluation>div{font-size: 0.75em;color: #2451a3;padding: 2em 0;}
+.evaluation>div>p{margin-bottom: 4px;}
+/*极致课程*/
+.acme-course>li>div{box-shadow: 0 0 15px rgba(17, 52, 120, 0.2);border-radius: 6px;background-color: #fff;}
+.acme-course>li>div>img{width: 100%;border-radius: 6px;}
+.acme-course>li>div>b{display: block;text-align: center;padding: 1em 0;}
+.acme-course>li>div>p{font-size: 0.875em;color: #666;line-height: 2;padding: 1em 0.5em;}
+/*免费预约*/
+.reservation>p{width: 70%;font-size: 0.875em;color: #666;padding: 1em 0;line-height: 1.6em;}
+.reservation>ul>li{padding-bottom: 2em;}
+.reservation>ul>li>img{padding-right: 2em;}
+.reservation>a{padding: 0.6em 6em;border-radius: 2em;color: #fff;text-decoration: none;background-color: #2451a3;}
+.move-img{width: 100%;padding-top: 2em;}
+/*优秀学员*/
+.student-x>div{box-shadow: 0 0 15px rgba(17, 52, 120, 0.2);border-radius: 6px;background-color: #fff;}
+.student-x>div>img,.student-x>div>b{padding-left: 1em;padding-top: 1em;}
+.student-x>div>span{color: #666;font-size: 0.875em;}
+.student-x>div>p{line-height: 2em;padding: 2em 1em;}
+/*媒体报道*/
+.mt-list>li>a>img{width: 100%}
+
+
+
+
+
+/*在小于576像素的屏幕里,这里的样式才生效*/
+@media (max-width: 575.98px) {
+    .title-1,.title-2>b,.title-3>b, .title-4>b,.title-5>b,.title-6>b,.reservation>b{font-size: 1.6em;}
+    .title-2>p,.title-3>p,.title-4>p,.title-5>p{font-size: 0.85em;}
+    .title-1,.title-2,.title-3,.title-4,.title-5,.title-6{top: -48px;}
+    /*热门课程*/
+    .big-text{font-size: 4em;}
+    /*.list-courses>li{width: 90%;margin:1em 1em;}*/
+    .list-courses>li{width: 44%;margin:1em 0.5em;}
+    .list-courses>li>b{font-size: 0.75em;padding: 1em 0.2em;}
+    .list-courses>li>p{padding: 0 0.2em;}
+    /*高效提分*/
+    .extract-list>li{width: 100%;text-align: center;}
+    .extract-list>li>p{width: 100%;text-align: left;}
+    /*视频*/
+    .video-v{width: 60%;}
+    .ctrl>img{width: 40px;margin-top: -40%;}
+    .shadow-v{margin: -3% 0 0 35%;box-shadow: 0 0 3em 1em rgba(36, 81, 163, 0.6);}
+    /*成长之路*/
+    .learning-plan{padding: 0;}
+    /*极致课程*/
+    .acme-course>li{margin: 1em 0;}
+    .acme-course>li>div>p{font-size: 0.75em;}
+    .ptb-3{padding: 1em 0;}
+    /*免费预约*/
+    .reservation>p{width: 98%;}
+    .move-img{display: none;}
+    /*优秀学员*/
+    .student-x>div>img{padding-left: 0;}
+    /*教育精英*/
+    .ptb-4{padding: 2em 0;}
+
+}
+
+/*在576和768像素的屏幕里,这里的样式才生效*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*热门课程*/
+    .list-courses>li{width: 44%;margin: 1em 1em;}
+    /*视频*/
+    .ctrl>img{width: 60px;}
+    .shadow-v{box-shadow: 0 0 4em 2em rgba(36, 81, 163, 0.6);}
+    /*极致课程*/
+    .acme-course>li{margin: 2em 0;}
+    /*免费预约*/
+    .reservation>b{font-size: 1.6em;}
+    .reservation>p{width: 98%;}
+    .move-img{display: none;}
+
+}
+
+/*在768和992像素的屏幕里,这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*热门课程*/
+    .list-courses>li{width: 44%;margin: 1em 1em;}
+    /*视频*/
+    .ctrl>img{width: 80px;}
+    .shadow-v{box-shadow: 0 0 4em 2em rgba(36, 81, 163, 0.6);}
+    /*极致课程*/
+    .acme-course>li{margin: 2em 0;}
+    /*免费预约*/
+    .reservation>b{font-size: 1.6em;}
+    .reservation>p{width: 98%;}
+    .move-img{padding-top: 8em;}
+
+}
+
+/*在992和1200像素的屏幕里,这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*热门课程*/
+    .list-courses>li{margin:1em 0.6em 0 1em;}
+    /*视频*/
+    .ctrl>img{width: 80px;}
+    .shadow-v{box-shadow: 0 0 4em 3em rgba(36, 81, 163, 0.6);}
+    /*免费预约*/
+    .reservation>p{width: 84%;}
+    .move-img{padding-top: 4em;}
+
+}

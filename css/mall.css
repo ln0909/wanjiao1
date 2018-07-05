@@ -1,0 +1,75 @@
+body{background-color: #f5f5f5;}
+/*面包屑导航*/
+.crumb-nav{padding: 1em 0;}
+.crumb-nav>a{text-decoration: none;font-size: 0.875em;color: #333;}
+.crumb-nav>a:hover{color: #666;}
+/*分类*/
+.bg-bor{background-color: #fff;padding-top: 1em;padding-bottom: 1em;border-radius: 6px;}
+/*托福考试*/
+.title-1{padding: 1em 0;}
+.title-1>b{font-size: 1.5em;}
+.title-1>span{font-size: 0.75em;color: #999;padding-left: 1em;}
+.list-courses>li{box-shadow: 0 0 15px rgba(17, 52, 120, 0.2);width: 22%;float: left;margin: 1em 1em 0 1em;border-radius: 6px;background-color: #fff;}
+.list-courses>li>a>img{width: 100%;padding-bottom: 1em;border-radius: 6px;}
+.list-courses>li>b{font-size: 0.875em;padding: 1em 1em;float: left;width: 100%;}
+.list-courses>li>p{padding: 0 1em;}
+.list-courses>li>p>span{font-size: 0.75em;color: #666;}
+.list-courses>li>p>a:nth-child(2){float: right;text-decoration: none;}
+.list-courses>li>p>a>span{color: #fe4a4a;font-weight: bold;}
+
+
+.a-item{padding: 0 1em;}
+.a-item:hover{text-decoration: none;color: #666;}
+.bg-color{border-radius: 4px;display:block;padding: 0 0.4rem;margin: 0 1rem;}
+.nav-item>.bg-color:hover{text-decoration: none;}
+.tip{padding-top: 2em;padding-bottom: 2em;}
+.small-class{background-color: #f7f7f7;position: absolute;left: 1.5em;bottom: 1.2em;width: 95%;height: 50px;}
+.small-class>a{padding: 0.1em 0.4em;border-radius: 4px;position: relative;top: 24%;left: 10%;text-decoration: none;font-size: 0.875em;}
+.small-class>a:hover{background-color: #2352a3;color: #fff;}
+.small-class>a:nth-child(n+2){margin-left: 2em;}
+.bg-a{background-color: #2352a3;color: #fff;}
+
+#d2,#d3,#d4,#d5{display: none;}
+
+
+
+
+/*在小于576像素的屏幕里,这里的样式才生效*/
+@media (max-width: 575.98px) {
+    /*托福考试*/
+    .list-courses>li{width: 44%;margin:1em 0.5em;}
+    .list-courses>li>b{font-size: 0.75em;padding: 1em 0.2em;}
+    .list-courses>li>p{padding: 0 0.2em;}
+    .tip{padding-top: 1em;padding-bottom: 1em;}
+    .small-class{position: static;}
+    .small-class>a{left: 6%;}
+    .small-class>a:nth-child(n+2){margin-left: 0;}
+}
+
+/*在576和768像素的屏幕里,这里的样式才生效*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*托福考试*/
+    .list-courses>li{width: 44%;margin: 1em 1em;}
+    .tip{padding-top: 1em;padding-bottom: 1em;}
+    .small-class{position: static;}
+    .small-class>a{left: 3%;}
+    .small-class>a:nth-child(n+2){margin-left: 0;}
+
+}
+
+/*在768和992像素的屏幕里,这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*托福考试*/
+    .list-courses>li{width: 44%;margin: 1em 1em;}
+    .tip{padding-top: 1em;padding-bottom: 1em;}
+    .small-class{position: static;}
+    .small-class>a{left: 3%;}
+    .small-class>a:nth-child(n+2){margin-left: 1em;}
+}
+
+/*在992和1200像素的屏幕里,这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*托福考试*/
+    .list-courses>li{margin:1em 0.6em 0 1em;}
+    .small-class>a{left: 12%;}
+}

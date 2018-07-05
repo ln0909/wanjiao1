@@ -1,0 +1,63 @@
+*{padding: 0;margin: 0;}
+p,h1,h2,h3,h4,h5,h6,ul,dl,dd,ol{list-style: none;}
+a{color: #666;text-decoration: none;}
+.container-fluid{padding: 0;}
+.color-bg{background-color: #fff;}
+/*头部 上导航*/
+.top-content>p{padding-top: 1em;}
+.breadcrumb{background-color: transparent;padding-left: 5em;}
+.breadcrumb-item>a{text-decoration: none;}
+/*下导航*/
+.logo-img{width: 144px;height: auto;}
+.bg-width{background-color: #fff;height: auto;box-shadow: 0 6px 15px rgba(17, 52, 120, 0.1);margin-top: -1em;}
+.search-img{margin-left: -3em;}
+.navbar-brand{margin-left: -0.85em;}
+.nav-link{height: 40px;margin: 0 0.2em;}
+.navbar-light .navbar-nav .nav-link{color: #333;}
+.navbar-light .navbar-nav .nav-link:hover{color: #2352A3;border-bottom: 2px #2352A3 solid;}
+.form-control{border-radius: 2rem;padding: .375rem 2rem;line-height: 1;}
+.dropdown-menu{box-shadow: 0 0 15px rgba(2, 0, 0, 0.2);}
+/*尾部*/
+.footer{padding: 2em 0;font-size: 0.875em;color: #666;}
+.foot-list>ul{display: flex;justify-content: space-between;}
+.foot-list>ul>li>a{text-decoration: none;}
+.foot-list>p{font-size: 0.75em;}
+.foot-a>a{text-decoration: none;}
+.foot-a>a:first-child{padding-left: 6em;}
+
+
+
+
+
+/*在小于576像素的屏幕里,这里的样式才生效*/
+@media (max-width: 575.98px) {
+    /*头部*/
+    .breadcrumb{padding-left: 1em;}
+    /*尾部*/
+    .foot-a>a:first-child{padding-left: 0;}
+    .foot-list>ul>li:nth-child(n+2){padding-left: 1em;}
+}
+
+/*在576和768像素的屏幕里,这里的样式才生效*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*头部*/
+    .breadcrumb{padding-left: 2em;}
+    /*尾部*/
+    .foot-a>a:first-child{padding-left: 0;}
+}
+
+/*在768和992像素的屏幕里,这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*头部*/
+    .breadcrumb{padding-left: 2em;}
+    /*尾部*/
+    .foot-a>a:first-child{padding-left: 2em;}
+}
+
+/*在992和1200像素的屏幕里,这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*头部*/
+    .breadcrumb{padding-left: 2em;}
+    /*尾部*/
+    .foot-a>a:first-child{padding-left: 4em;}
+}

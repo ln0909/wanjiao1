@@ -1,0 +1,71 @@
+body{background-color: #f5f5f5;}
+/*面包屑导航*/
+.crumb-nav{padding: 1em 0;}
+.crumb-nav>a{text-decoration: none;font-size: 0.875em;color: #333;}
+.crumb-nav>a:hover{color: #666;}
+/*课程介绍*/
+.course-detail,.detail{background-color: #fff;padding: 2em;border-radius: 6px;margin-bottom: 1em;}
+.list-title>dd:last-child>b>span{font-size: 1.25em;color: #fe4a4a;}
+.p-text{color: #666;font-size: 0.75em;margin-top: -2em;}
+.d-num{margin-top: -0.6em;font-size: 0.75em;padding-bottom: 1em;}
+.d-num>span>a{text-decoration: none;}
+.list-1,.list-2,.list-3,.list-4{font-size: 0.75em;}
+.list-1>ul>li:first-child,.list-2>ul>li:first-child,.list-3>ul>li:first-child,.list-4>ul>li:first-child{padding-left: 1.2em;}
+.list-1>ul>li:nth-child(n+2),.list-2>ul>li:nth-child(n+2),.list-3>ul>li:nth-child(n+2),.list-4>ul>li:nth-child(n+2){padding-left: 1em;}
+.list-2>ul>li>a,.list-3>ul>li>a,.list-4>ul>li>a{border: 1px #e0e0e0 solid;border-radius: 4px;padding: 0.5em 1em;text-decoration: none;}
+.list-2>ul>li>a:hover,.list-3>ul>li>a:hover,.list-4>ul>li>a:hover{color: #fff;border: 1px solid transparent;
+    background: -webkit-linear-gradient(left top, #3961ac, #3961ac, #27c3cd);
+    background: -o-linear-gradient(bottom right, #3961ac, #3961ac, #27c3cd);
+    background: -moz-linear-gradient(bottom right, #3961ac, #3961ac, #27c3cd);
+    background: linear-gradient(to bottom right, #3961ac, #3961ac, #27c3cd);
+}
+.go-buy{padding-top: 2em;}
+.go-buy>a{padding: 0.8em 6em;background-color: #fe4a4a;color: #fff;font-size: 0.875em;border-radius: 2em;text-decoration: none;}
+/*详情评价*/
+.detail-title{height: 50px;}
+.detail-title>a{font-size: 1.12em;text-decoration: none;}
+.detail-title>a:hover{color: #2352A3;border-bottom: 2px #2352A3 solid;}
+/*详情*/
+.detail-1{border-top: 1px #e0e0e0 solid;padding-top: 2em;}
+.detail-1{display: none;}
+/*评价*/
+.comment-2>li{border-top: 1px #e0e0e0 solid;padding: 2em 0;}
+.comment-2>li:last-child{border-bottom: 1px #e0e0e0 solid;padding: 2em 0;}
+.stars-img>dt{font-weight: 400;}
+.stars-img>dd{background:url(../images/stars-1.png) no-repeat;width: 14px;height: 14px;position: relative;top: 10px;}
+.user-reviews>p{font-size: 0.875em;color: #666;}
+.reply{font-size: 0.875em;background-color: #f7f7f7;padding: 1em 0;}
+.reply>a{color: #2352a3;text-decoration: none;}
+
+/*在小于576像素的屏幕里,这里的样式才生效*/
+@media (max-width: 575.98px) {
+    /*课程介绍*/
+    .list-1>li:nth-child(n+2){padding-left: 2em;}
+    .list-1>ul>li:nth-child(n+2){padding-left: 0.8em;}
+    .course-img{text-align: center;}
+    .course-list{margin-top: 2em;}
+    .list-3>ul>li,.list-2>ul>li{margin: 1em 0;}
+    .go-buy>a{padding: 0.8em 5em;}
+}
+
+/*在576和768像素的屏幕里,这里的样式才生效*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*课程介绍*/
+    .course-img{text-align: center;}
+    .course-list{margin-top: 2em;}
+    .list-1>ul>li:nth-child(n+2){padding-left: 0.6em;}
+    .list-3>ul>li:nth-child(n+2){padding-left: 0.8em;}
+}
+
+/*在768和992像素的屏幕里,这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*课程介绍*/
+    .course-img{text-align: center;}
+    .course-list{margin-top: 2em;}
+}
+
+/*在992和1200像素的屏幕里,这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*课程介绍*/
+    .list-1>ul>li:nth-child(n+2),.list-3>ul>li:nth-child(n+2){padding-left: 0.3em;}
+}
